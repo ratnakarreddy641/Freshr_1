@@ -1,0 +1,241 @@
+@font-face {
+    font-family:'Product';
+    src:url('fonts/Product Sans Regular.ttf');
+}
+
+@font-face {
+    font-family:'Product-B';
+    src:url('fonts/Product Sans Bold.ttf');
+}
+@font-face {
+    font-family:'Product-I';
+    src:url('fonts/Product Sans Italic.ttf');
+}
+.TitleText{
+  font-family: Product;
+  color: black;
+  font-size: 1.5rem !important;
+  text-decoration: none;
+}
+.TitleText:hover{
+  text-decoration: none;
+  color: black;
+}
+.IndiaText{
+  color: #1FAA59;
+}
+.TitleContainer{
+  margin: 30px 0;
+  text-align: left;
+}
+.TextPages{
+  font-family: Product;
+  text-decoration: none;
+  color: black;
+  padding:0 10px;
+}
+.TextPages:hover{
+  color: #1FAA59;
+  text-decoration: none;
+}
+.pages{
+  margin: 30px 0;
+  text-align: right;
+}
+
+
+
+.introText{
+  margin-top: 30px;
+  font-family: Product;
+  font-size: 2.5rem;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .introText {
+    font-size: 2rem;
+  }
+
+}
+@media screen and (max-width: 550px) {
+  .introText {
+    font-size: 1.5rem;
+  }}
+
+  .HireImg{
+    width:550px;
+    margin: auto;
+    display:  flex;
+  }
+  @media screen and (max-width: 550px){
+
+    .HireImg{
+    width:250px;
+    }
+  }
+
+
+
+
+
+.Hirebtn {
+  margin-right: 10px;
+  background-color: transparent;
+  border-radius: 4px;
+  font-family: Product;
+  color: #22cb5d;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  border: solid #22cb5d 2px;
+  text-decoration: none;
+}
+.Joinbtn {
+  margin-left: 10px;
+  background-color: #22cb5d;
+  border-radius: 4px;
+  font-family: Product;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  border: solid #22cb5d 2px;
+  text-decoration: none;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.buttonrow{
+}
+.HireCol{
+margin-right: 10px;
+}
+.JoinCol{
+margin-left: 10px
+}
+.IntroButtons{
+  margin: 30px;
+}
+
+
+
+
+.Curousal{
+  padding: 50px;
+  background-color: #38CC77;
+}
+.Curousal2{
+  padding: 50px;
+}
+.crsl-img{
+  width:250px;
+  margin: auto;
+  display:  flex;
+}
+.sec2H1{
+  text-align: center;
+  font-family: Product-B;
+  font-size: 1.5rem;
+}
+.sec2P{
+  text-align: center;
+  font-family: Product;
+}
+.sec2P2{
+  text-align: center;
+  padding: 0 10%;
+  font-family: Product;
+}
+
+.UserText{
+  font-family: Product;
+  text-align: center;
+}
+.carousel-item{
+  padding: 100px;
+}
+em{
+  text-align: center;
+  display: block;
+  font-family: Product-I;
+  opacity: 50%;
+  ;
+}
+
+.carousel-indicators li {
+    background-color: #eeeeee !important;
+
+}
+.carousel-indicators .active {
+
+    background-color: #38CC77 !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+
+
+.Subscribe{
+  background-color: #38CC77;
+}
+
+.subs{
+  font-family: Product-B;
+  text-align: center;
+}
+.subs-p{
+  font-family: Product;
+  text-align: center;
+}
+
+.subsContainer{
+  padding: 30px;
+}
+.Emailip {
+    margin: auto;
+    width:40%;
+    font-family: Product;
+     padding: 5px;
+     display: block;
+     font-size: 16px;
+     text-align: center;
+     border-width: 0px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 50px;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.14);
+     outline: none;
+}
+
+
+.Logoimg{
+  width:120px;
+  height: auto;
+
+}
+.Logoimg2{
+  width:150px;
+  height: auto;
+
+}
+.Partners{
+  padding: 50px 0;
+}
+.PartnersText{
+  font-family: Product-B;
+  text-align: center;
+  padding: 20px 0;
+}
+.FOOTER{
+  background-color: #38CC77;
+  font-family: Product;
+  text-align: center;
+  padding: 10px;
+
+
+}
+.FOOTER p{
+  margin: 0;
+}
